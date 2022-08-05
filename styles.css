@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    padding: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    top: 30px;
+}
+
+.illustration{
+    width: 700px;
+    height: 480px;
+}
+
+.logo{
+    width: 180px;
+    position: relative;
+    bottom: 20px;
+}
+
+h1,.paragraph{
+    color: white;
+}
+
+h1{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 35px;
+    width: 90%;
+    position: relative;
+    bottom: 100px;
+}
+
+.paragraph{
+    font-family: Open Sans;
+    width: 92%;
+    position: relative;
+    bottom: 80px;
+}
+
+.button{
+    position: relative;
+    bottom: 50px;
+    font-family: Open Sans;
+    color: hsl(257, 40%, 49%);
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 2px 1px 7px -1px #000000;
+    height: 45px;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: hsl(300, 69%, 71%);
+}
+
+.icons{
+    width: 15%;
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+    float: right;
+    position: relative;
+    top: 10px;
+}
+
+.instagram,.twitter,.facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    fill: white;
+}
+
+
+.instagram:hover,.twitter:hover,.facebook:hover{
+    fill: hsl(300, 69%, 71%);
+    cursor: pointer;
+    border-color: hsl(300, 69%, 71%);
+    
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+   
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
