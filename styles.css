@@ -22,8 +22,7 @@
 }
 
 .illustration{
-    width: 700px;
-    height: 480px;
+    max-width: 100%;
 }
 
 .logo{
